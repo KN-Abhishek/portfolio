@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Lets Talk</h1>
-                <p>I'm available to take on any projects and put my 100% in it. So feel free to contact me.You can contact me anytime.</p>
+                <p>I'm currently available to take on any projects so feel free to send a message and contact me.You can contact me anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mailicon} alt="" /><p>abhishek.kanjanghat@tarento.com</p>
@@ -29,12 +29,13 @@ const Contact = () => {
                 </div>
             </div>
             <form className="contact-right">
-                <label htmlFor="Your Name"></label>
+                <label htmlFor="">Your Name</label>
                 <input type="text" placeholder='Enter Your Name' name='name' />
                 <label htmlFor="">Your Email</label>
                 <input type="Email" placeholder='Enter Your Email' name='email'/>
-                <label htmlFor="Write Your Message Here"></label>
-                <textarea name="Message" rows="8"></textarea>
+                <label htmlFor="">Write Your Message Here</label>
+                <textarea name="Message" rows="8" placeholder='Enter Your Message'></textarea>
+                <button type='submit' className="contact-submit">Submit Now</button>
             </form>
         </div>
      
